@@ -1,0 +1,124 @@
+
+
+
+/* Responsive Design */
+@media (max-width: 1024px){
+    .location{
+        gap: 0px !important;  
+    }
+    .selection-item{
+        gap: 10px;
+    }
+    .item-1 h1 {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hamburger {display: block; }
+    .item-1 h1 { text-align: center; margin-top: 30px; }
+    .location .image-icon {margin-left: 10px; margin-right: 20px; }
+    .home-link{font-size: 13px; margin-top: 10px;}
+    .selection-item{ margin-bottom: 30px; }
+    .pad{ padding: 10px;}
+    .navbar-right { display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 55px;
+      background-color: #71ABC1;
+      border-radius: 8px;
+      width: 40%;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      z-index: 100;
+    }
+    .navbar-right.active { display: flex; margin-left: 63%;}
+    .nav-links { flex-direction: column; }
+    .nav-links li { margin: 10px 0; }
+    .separator { display: none; }
+    .footer-links a { font-size: 12px; }
+    .footer-links{ gap: 10px; }
+    .banner-section{ height: 100%;} 
+    .check-box{  font-size: 15px; }
+    .page-link{
+        font-size: 17px;
+    }
+    .pagination-margin {
+        margin: 25px 0px;
+    }
+  }
+
+
+ 
+  @media (max-width: 480px) {
+    .home-link{font-size: 11px; }
+    .pad{ padding: 20px;}
+    .item-1 h1 {font-size: 28px; margin-bottom: 20px;margin-top: 18px; }
+    .selection-item { gap: 5px; justify-content: center;  display: flex;}   
+    .join-now, .sign-up {  padding: 5px 10px;  }
+    .nav-links li a { font-size: 12px; }
+    .nav-links li a .nav-image {  width: 28px;  height: 28px;  } 
+    .card {
+        padding: 10px;
+    }
+    
+    .extra-margin{
+        margin: 15px;
+    }
+    .card-section {
+        padding: 16px;
+        margin-top: 20px;
+    }
+    .check-box{  font-size: 15px; }
+  }
+
+  @media(max-width: 425px){
+    .item-1 h1 {font-size: 25px; margin-bottom: 20px;  }
+
+  }
+  @media(max-width: 375px){
+    .card-section {
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .check-box{  font-size: 12px; }
+  }
+ @media(max-width: 320px){
+    .pad{ padding: 11px;}
+    .item-2{ padding: 10px;} 
+    .item-1 h1 {font-size: 20px; }
+    .location p { font-size: 15px;}
+    .location select{ font-size: 15px; }
+    .input-box{ margin-bottom: 0px; padding: 5px; font-size: 14px; }
+    .check-box{  font-size: 12px; }
+    .check-box p{  font-size: 12px; }
+    .submit-btn{ line-height: 35px; }
+    form p { font-size: 12px;  }
+    .card-section {
+        padding: 10px;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .card-body p {
+        font-size: 12px;
+    }
+    .card-body{
+        padding: 0px 7px;
+    }
+   .card-header{
+    padding: 7px;
+   }
+    .btn-follow{
+        font-size: 12px;
+    }
+    .card-footer{
+        padding: 0px 5px;
+    }
+    .page-link{
+        padding: 0px 12px;
+        font-size: 12px;
+      }
+      .pagination-margin{
+        margin: 30px 0px;
+      }
+ }
